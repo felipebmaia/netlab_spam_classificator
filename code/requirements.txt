@@ -1,0 +1,13 @@
+matplotlib
+matplotlib.pyplot
+sklearn
+pandas
+numpy
+scipy
+jupyter
+nltk
+string
+Counter
+spacy
+json
+seaborn
