@@ -1,5 +1,5 @@
 # Classificador de SPAM - NetLab <div align="left">
-<img src="https://user-images.githubusercontent.com/95922808/184951168-8ee832b7-27e6-4157-abd3-de0d7dd73358.png" width="300px"/>
+<img src="https://user-images.githubusercontent.com/95922808/184951168-8ee832b7-27e6-4157-abd3-de0d7dd73358.png" width="100px"/>
 </div>
 
 #### Autor: [Felipe Maia](https://www.linkedin.com/in/felipe-b-maia/)
