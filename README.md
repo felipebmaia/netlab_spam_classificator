@@ -18,15 +18,45 @@ Este projeto tem como objetivo utilizar uma base de dados de um aplicativo de me
 
 ## Desenvolvimento
 
-Para a execução do script em ambiente local de desenvolvimento, é utilizada a ferramenta docker-compose através do seguinte comando:
+Para a execução do script em ambiente local de desenvolvimento, é necessário a criação e ativação de um ambiente virtual.
 
 ```bash
-$ docker-compose up
+python -m venv .spam
+source .spam/bin/activate
 ```
 
-Após a execução do script, os dados estarão indexados no Docker e poderão ser visualizados e manipulados através do mesmo na url [http://localhost:5601](http://localhost:5601)
+Em seguida é necessário instalar os requirements.
 
-## Implantação
+```bash
+pip install -r requirements.txt
+```
 
-O projeto não contempla um processo automatizado de implantação. Mas a arquitetura e os procedimentos necessários para implantação do projeto em Cloud estão descritos em um documento markdown à parte que pode ser acessado [CLICANDO AQUI.](./docs/deployment.md)
-<br/>
+Após a instalação dos requirements o scrip de classificação pode ser executado.
+
+```bash
+cd code
+python spam_classificator.py
+```
+
+## Resultado
+
+Ao fim da execução do script ele irá gerar um arquivo no diretório data chamado Data_Tagged.csv que são os dados de teste classificados como SPAM (True False)
+
+## Descrição dos Diretórios
+
+- Code:
+  Notebook com toda parte de pre-processamento.
+  Arquivo. py com o script para rodar o classificador.
+
+- Data:
+  Base de dados em arquivo CSV, extraída de um aplicativo de mensagens instantâneas, separadas em treino e teste.
+  A base de treino possui: as mensagens, ids, e classificações e base de teste com apenas ids e mensagens.
+  Base de saída do modelo de classificação com as Tags se a mensagem é ou não do tipo SPAM.
+
+- Model:
+  used_columms.pkl - features utilizadas.
+  commom_spam_words - base com as palavras mais comuns.
+  numeric_columms.plk - base com todas colunas numéricas do conjunto.
+  spacy.plk - base com o resultado do Spacy.
+  spam.tree.plk - Modelo de Árvore de Decisão.
+  std_transform.plk - base com os dados transformados.
