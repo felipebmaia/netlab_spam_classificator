@@ -1,5 +1,5 @@
 <div align="left">
-<img src="https://github.com/felipebmaia/netlab_spam_classificator/issues/1#issue-1340719540" width="400px" />
+<img src="https://github.com/felipebmaia/netlab_spam_classificator/issues/1#issue-1340719540"/>
 </div>
 
 
