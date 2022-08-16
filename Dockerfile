@@ -1,7 +1,7 @@
 FROM python:3.10-bullseye
 
 # install the requirements
-COPY code/requirements.txt /tmp/requirements.txt 
+COPY requirements.txt /tmp/requirements.txt 
 RUN pip install --upgrade pip
 RUN pip install -r /tmp/requirements.txt
 RUN rm -rf /tmp/requirements.txt
