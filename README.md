@@ -46,8 +46,8 @@ Ao fim da execução do script ele irá gerar um arquivo no diretório [data](./
 ## Descrição_dos_Diretórios
 
 - Code:
-  - Notebook com toda parte de pre-processamento. Com a explicação de cada etapa realizada por meio de células de markdown.
-  - Arquivo. py com o script para rodar o classificador.
+  - preprocessing_data.ipynb - Notebook com toda parte de pre-processamento. Com a explicação de cada etapa realizada por meio de células de markdown.
+  - spam_classificator.py - arquivo com o script para rodar o Classificador e gerar a saída.
 
 - Data:
   - Base de dados em arquivo CSV, extraída de um aplicativo de mensagens instantâneas, separadas em treino e teste.
