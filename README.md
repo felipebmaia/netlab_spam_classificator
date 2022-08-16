@@ -55,9 +55,9 @@ Ao fim da execução do script ele irá gerar um arquivo no diretório [data](./
   - Base de saída do modelo de classificação com as Tags se a mensagem é ou não do tipo SPAM.
 
 - Model:
-  - used_columms.pkl - features utilizadas.  
-  - commom_spam_words.pkl - arquivo com as palavras mais comuns.  
+  - used_columms.pkl - arquivo com todas as features utilizadas.  
+  - commom_spam_words.pkl - arquivo contendo a lista de palavras mais recorrentes em notícias marcadas como SPAM.  
   - numeric_columms.pkl - arquivo com todas colunas numéricas do conjunto.  
-  - spacy.pkl - arquivo com o resultado do Spacy.  
+  - spacy.pkl - arquivo com o objeto do Spacy, já carregado em pt-br.
   - spam.tree.pkl - Modelo de Árvore de Decisão.  
-  - std_transform.pkl - arquivo com os dados transformados.
+  - std_transform.pkl - arquivo com os dados já processados e transformados.
