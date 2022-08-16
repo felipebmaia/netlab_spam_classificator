@@ -41,7 +41,7 @@ python spam_classificator.py
 
 ## Resultado
 
-Ao fim da execução do script ele irá gerar um arquivo no diretório data chamado Data_Tagged.csv que são os dados de teste classificados como SPAM (True False)
+Ao fim da execução do script ele irá gerar um arquivo no diretório [data](./data) chamado Data_Tagged.csv que são os dados de teste classificados como SPAM (True False)
 
 ## Descrição_dos_Diretórios
 
@@ -58,6 +58,6 @@ Ao fim da execução do script ele irá gerar um arquivo no diretório data cham
   - used_columms.pkl - features utilizadas.  
   - commom_spam_words - base com as palavras mais comuns.  
   - numeric_columms.plk - base com todas colunas numéricas do conjunto.  
-  - spacy.plk - base com o resultado do Spacy.  
-  - spam.tree.plk - Modelo de Árvore de Decisão.  
-  - std_transform.plk - base com os dados transformados.
+  - spacy.pkl - base com o resultado do Spacy.  
+  - spam.tree.pkl - Modelo de Árvore de Decisão.  
+  - std_transform.pkl - base com os dados transformados.
