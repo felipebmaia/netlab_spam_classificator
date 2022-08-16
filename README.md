@@ -60,5 +60,6 @@ Ao fim da execução do script ele irá gerar um arquivo no diretório [data](./
   - commom_spam_words.pkl - arquivo contendo a lista de palavras mais recorrentes em notícias marcadas como SPAM.  
   - numeric_columms.pkl - arquivo com todas colunas numéricas do conjunto.  
   - spacy.pkl - arquivo com o objeto do Spacy, já carregado em pt-br.
-  - spam.tree.pkl - modelo final de machine learning do tipo Árvore de Decisão com os melhores parâmetros setados.  
   - std_transform.pkl - arquivo com os dados já processados e transformados.
+  - spam.tree.pkl - modelo final de machine learning do tipo Árvore de Decisão com os melhores parâmetros setados.  
+  
