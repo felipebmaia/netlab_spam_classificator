@@ -59,15 +59,15 @@ Ao fim da execução do script ele irá gerar um arquivo no diretório data cham
 
 - Model:
 
-  used_columms.pkl - features utilizadas.
+  - used_columms.pkl - features utilizadas.
   
   
-  *commom_spam_words - base com as palavras mais comuns.
+  - commom_spam_words - base com as palavras mais comuns.
   
-  *numeric_columms.plk - base com todas colunas numéricas do conjunto.
+  - numeric_columms.plk - base com todas colunas numéricas do conjunto.
   
-  *spacy.plk - base com o resultado do Spacy.
+  - spacy.plk - base com o resultado do Spacy.
   
-  *spam.tree.plk - Modelo de Árvore de Decisão.
+  - spam.tree.plk - Modelo de Árvore de Decisão.
   
-  *std_transform.plk - base com os dados transformados.
+  - std_transform.plk - base com os dados transformados.
