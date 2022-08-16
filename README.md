@@ -51,8 +51,9 @@ Ao fim da execução do script ele irá gerar um arquivo no diretório [data](./
 
 - Data:
   - Base de dados em arquivo CSV, extraída de um aplicativo de mensagens instantâneas, separadas em treino e teste.
-  - A base de treino possui: as mensagens, ids, e classificações e base de teste com apenas ids e mensagens.
-  - Data_Tagged.csv - arquivo de saída do modelo de classificação com as Tags de mensagem do tipo SPAM ou não (True or False).
+  - Data_Train.csv - base de treino com as mensagens, ids, e classificações.
+  - Data_Test.csv - base de teste com apenas as ids e as mensagens.
+  - Data_Tagged.csv - arquivo de saída do modelo de classificação com as Tags das mensagem do tipo SPAM ou não (True or False).
 
 - Model:
   - used_columms.pkl - arquivo com todas as features utilizadas.  
