@@ -1,3 +1,6 @@
+<div align="left">
+![spam-detector-online](https://user-images.githubusercontent.com/95922808/184951168-8ee832b7-27e6-4157-abd3-de0d7dd73358.png)
+</div>
 # Classificador de SPAM - NetLab
 
 #### Autor: [Felipe Maia](https://www.linkedin.com/in/felipe-b-maia/)
@@ -63,4 +66,4 @@ Ao fim da execução do script ele irá gerar um arquivo no diretório [data](./
   - std_transform.pkl - arquivo com os dados já processados e transformados.
   - spam.tree.pkl - modelo final de machine learning do tipo Árvore de Decisão com os melhores parâmetros setados.  
   
-![spam-detector-online](https://user-images.githubusercontent.com/95922808/184951168-8ee832b7-27e6-4157-abd3-de0d7dd73358.png)
+
