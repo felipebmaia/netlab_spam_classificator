@@ -49,7 +49,7 @@ Ao fim da execução do script ele irá gerar um arquivo no diretório [data](./
   - spam_classificator.py - arquivo com o script em Python para rodar o Classificador e gerar a saída com os dados tagueados (Data_Tagged.csv).
 
 - Data:
-  - Base de dados em arquivo CSV, extraída de um aplicativo de mensagens instantâneas, separadas em treino e teste.
+  - Base de dados em arquivos.CSV, extraída de um aplicativo de mensagens instantâneas, separadas em treino e teste.
   - Data_Train.csv - base de treino com as mensagens, ids, e classificações.
   - Data_Test.csv - base de teste com apenas as ids e as mensagens.
   - Data_Tagged.csv - arquivo de saída do modelo de classificação com as Tags das mensagem do tipo SPAM ou não (True or False).
