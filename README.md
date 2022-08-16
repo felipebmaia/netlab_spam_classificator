@@ -56,8 +56,8 @@ Ao fim da execução do script ele irá gerar um arquivo no diretório [data](./
 
 - Model:
   - used_columms.pkl - features utilizadas.  
-  - commom_spam_words - base com as palavras mais comuns.  
-  - numeric_columms.plk - base com todas colunas numéricas do conjunto.  
-  - spacy.pkl - base com o resultado do Spacy.  
+  - commom_spam_words.pkl - arquivo com as palavras mais comuns.  
+  - numeric_columms.pkl - arquivo com todas colunas numéricas do conjunto.  
+  - spacy.pkl - arquivo com o resultado do Spacy.  
   - spam.tree.pkl - Modelo de Árvore de Decisão.  
-  - std_transform.pkl - base com os dados transformados.
+  - std_transform.pkl - arquivo com os dados transformados.
