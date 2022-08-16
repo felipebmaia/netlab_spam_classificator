@@ -7,9 +7,11 @@
 
 A proposta deste projeto é desenvolver um classificador de SPAM utilizando uma base de dados de um aplicativo de mensagens instantâneas e medir a eficiência do modelo.
 
-<div align="center">
+
+<div align="left">
 <img src="https://user-images.githubusercontent.com/95922808/184951168-8ee832b7-27e6-4157-abd3-de0d7dd73358.png" width="150px"/>
 </div>
+
 
 ## Sumário
 
