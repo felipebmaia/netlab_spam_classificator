@@ -10,7 +10,8 @@ A proposta deste projeto é desenvolver um classificador de SPAM utilizando uma 
 
 - [Sobre](#sobre)
 - [Desenvolvimento](#desenvolvimento)
-- [Implantação](#implantação)
+- [Resultado](#resultado)
+- [Descrição_dos_Diretórios](#descrição_dos_diretórios)
 
 ## Sobre
 
