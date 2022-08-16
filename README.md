@@ -47,10 +47,13 @@ Ao fim da execução do script ele irá gerar um arquivo no diretório data cham
 
 - Code:
   Notebook com toda parte de pre-processamento.
+  
   Arquivo. py com o script para rodar o classificador.
 
 - Data:
+  
   Base de dados em arquivo CSV, extraída de um aplicativo de mensagens instantâneas, separadas em treino e teste.
+  
   A base de treino possui: as mensagens, ids, e classificações e base de teste com apenas ids e mensagens.
   Base de saída do modelo de classificação com as Tags se a mensagem é ou não do tipo SPAM.
 
