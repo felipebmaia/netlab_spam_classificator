@@ -10,6 +10,7 @@ A proposta deste projeto é desenvolver um classificador de SPAM utilizando uma 
 <div align="left">
 <img src="https://user-images.githubusercontent.com/95922808/184951168-8ee832b7-27e6-4157-abd3-de0d7dd73358.png" width="150px"/>
 </div>
+
 ## Sumário
 
 - [Sobre](#sobre)
