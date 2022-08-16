@@ -2,7 +2,6 @@
 
 #### Autor: [Felipe Maia](https://www.linkedin.com/in/felipe-b-maia/)
 
-
 <br/>
 
 A proposta deste projeto é desenvolver um classificador de SPAM utilizando uma base de dados de um aplicativo de mensagens instantâneas e medir a eficiência do modelo.
