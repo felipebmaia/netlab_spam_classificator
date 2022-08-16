@@ -1,5 +1,5 @@
-<div align="left">
-<img src="https://github.com/felipebmaia/netlab_spam_classificator/issues/1#issue-1340719540"/>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/95922808/184951168-8ee832b7-27e6-4157-abd3-de0d7dd73358.png"/>
 </div>
 
 
