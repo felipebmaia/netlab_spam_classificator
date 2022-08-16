@@ -43,7 +43,7 @@ python spam_classificator.py
 
 Ao fim da execução do script ele irá gerar um arquivo no diretório data chamado Data_Tagged.csv que são os dados de teste classificados como SPAM (True False)
 
-## Descrição dos Diretórios
+## Descrição_dos_Diretórios
 
 - Code:
   Notebook com toda parte de pre-processamento.
@@ -55,6 +55,7 @@ Ao fim da execução do script ele irá gerar um arquivo no diretório data cham
   Base de saída do modelo de classificação com as Tags se a mensagem é ou não do tipo SPAM.
 
 - Model:
+
   used_columms.pkl - features utilizadas.
   
   
