@@ -4,7 +4,7 @@
 
 <br/>
 
-A proposta deste projeto é coletar pelo menos 50 notícias sobre desinformação no Portal G1 e indexá-las na base Elasticsearch.
+A proposta deste projeto é desenvolver um classificador de SPAM utilizando uma base de dados de um aplicativo de mensagens instantâneas e medir a eficiência do modelo.
 
 ## Sumário
 
@@ -14,10 +14,7 @@ A proposta deste projeto é coletar pelo menos 50 notícias sobre desinformaçã
 
 ## Sobre
 
-Este projeto tem o objetivo de coletar e indexar notícias do Portal G1 sobre desinformação. O projeto consiste em um script python que utiliza a biblioteca requests para acessar e coletar as notícias, e utiliza a biblioteca BeautifulSoup para extrair do HTML os dados de título, data e corpo de cada notícia.
-Após a coleta, os dados são inseridos em uma base Elasticsearch e podem ser visualizados e manipulados através da UI Kibana.
-
-O script python foi desenvolvido seguindo o paradigma de Programacão Orientada a Objetos (OOP).
+Este projeto tem como objetivo utilizar uma base de dados de um aplicativo de mensagens instantâneas e, a partir desta base, desenvolver um modelo de Classificação utilizando técnicas de Machine Learning. O projeto consiste em um script python que utiliza a biblioteca do Scikit-Learn para realizar o Tokenizer e Classificador, e a plataforma Natural Language Toolkit (NLTK) foi usada para construir a análise de texto. Após a construção do modelo os dados foram inseridos no Docker para serem visualizados e manipulados.
 
 ## Desenvolvimento
 
@@ -27,11 +24,9 @@ Para a execução do script em ambiente local de desenvolvimento, é utilizada a
 $ docker-compose up
 ```
 
-Após a execução do script, os dados estarão indexados no Elasticsearch e poderão ser visualizados e manipulados através da UI Kibana. O Kibana pode ser acessado através da url [http://localhost:5601](http://localhost:5601)
-
-<img width="1436" alt="Screenshot 2022-07-12 at 23 38 04" src="https://user-images.githubusercontent.com/95288275/178600805-40526503-bd8b-40c9-a1b8-cc20b9b9a1aa.png">
+Após a execução do script, os dados estarão indexados no Docker e poderão ser visualizados e manipulados através do mesmo na url [http://localhost:5601](http://localhost:5601)
 
 ## Implantação
 
-Neste momento, este projeto não contempla a implementação de um processo automatizado de implantação. No entanto, a arquitetura e os procedimentos necessários para implantação do projeto na plataforma GCP estão descritos em um [documento markdown em separado.](./docs/deployment.md)
+Por ora o projeto não contempla um processo automatizado de implantação. Mas a arquitetura e os procedimentos necessários para implantação do projeto em Cloud estão descritos em um documento markdown à parte que pode ser acessado [clicando aqui.](./docs/deployment.md)
 <br/>
