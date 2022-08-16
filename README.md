@@ -28,5 +28,5 @@ Após a execução do script, os dados estarão indexados no Docker e poderão s
 
 ## Implantação
 
-Por ora o projeto não contempla um processo automatizado de implantação. Mas a arquitetura e os procedimentos necessários para implantação do projeto em Cloud estão descritos em um documento markdown à parte que pode ser acessado [CLICANDO AQUI.](./docs/deployment.md)
+Por ora, o projeto não contempla um processo automatizado de implantação. Mas a arquitetura e os procedimentos necessários para implantação do projeto em Cloud estão descritos em um documento markdown à parte que pode ser acessado [CLICANDO AQUI.](./docs/deployment.md)
 <br/>
