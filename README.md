@@ -15,7 +15,7 @@ A proposta deste projeto é desenvolver um classificador de SPAM utilizando uma 
 
 ## Sobre
 
-Este projeto tem como objetivo utilizar uma base de dados de um aplicativo de mensagens instantâneas e, a partir desta base, desenvolver um modelo de Classificação utilizando técnicas de Machine Learning. O projeto consiste em um script python que utiliza a biblioteca do Scikit-Learn para realizar o Tokenizer e Classificador, e a plataforma Natural Language Toolkit (NLTK) foi usada para construir a análise de texto. Após a construção do modelo os dados foram inseridos no Docker para serem visualizados e manipulados.
+Este projeto tem como objetivo utilizar uma base de dados de um aplicativo de mensagens instantâneas e, a partir desta base, desenvolver um modelo de Classificação utilizando técnicas de Machine Learning. O projeto consiste em um script python que utiliza a biblioteca do Scikit-Learn para realizar o Tokenizer e Classificador, e a plataforma Natural Language Toolkit (NLTK) foi usada para construir a análise de texto. Também foi utilizado o Spacy para identificar o que cada texto significa (Pós-Tagging). Após a construção do modelo, foi criado um arquivo.py para rodar o script e gerar a saída dos dados classificados.
 
 ## Desenvolvimento
 
@@ -46,7 +46,7 @@ Ao fim da execução do script ele irá gerar um arquivo no diretório data cham
 ## Descrição_dos_Diretórios
 
 - Code:
-  - Notebook com toda parte de pre-processamento.
+  - Notebook com toda parte de pre-processamento. Com a explicação de cada etapa realizada por meio de células de markdown.
   - Arquivo. py com o script para rodar o classificador.
 
 - Data:
