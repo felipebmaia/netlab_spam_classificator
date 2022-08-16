@@ -46,25 +46,18 @@ Ao fim da execução do script ele irá gerar um arquivo no diretório data cham
 ## Descrição_dos_Diretórios
 
 - Code:
-  Notebook com toda parte de pre-processamento.
-  
-  Arquivo. py com o script para rodar o classificador.
+  - Notebook com toda parte de pre-processamento.
+  - Arquivo. py com o script para rodar o classificador.
 
 - Data:
-  
-  Base de dados em arquivo CSV, extraída de um aplicativo de mensagens instantâneas, separadas em treino e teste.
-  
-  A base de treino possui: as mensagens, ids, e classificações e base de teste com apenas ids e mensagens.
-  Base de saída do modelo de classificação com as Tags se a mensagem é ou não do tipo SPAM.
+  - Base de dados em arquivo CSV, extraída de um aplicativo de mensagens instantâneas, separadas em treino e teste.
+  - A base de treino possui: as mensagens, ids, e classificações e base de teste com apenas ids e mensagens.
+  - Base de saída do modelo de classificação com as Tags se a mensagem é ou não do tipo SPAM.
 
 - Model:
-
   - used_columms.pkl - features utilizadas.  
   - commom_spam_words - base com as palavras mais comuns.  
-  - numeric_columms.plk - base com todas colunas numéricas do conjunto.
-  
-  - spacy.plk - base com o resultado do Spacy.
-  
-  - spam.tree.plk - Modelo de Árvore de Decisão.
-  
+  - numeric_columms.plk - base com todas colunas numéricas do conjunto.  
+  - spacy.plk - base com o resultado do Spacy.  
+  - spam.tree.plk - Modelo de Árvore de Decisão.  
   - std_transform.plk - base com os dados transformados.
